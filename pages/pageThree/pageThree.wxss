@@ -1,0 +1,347 @@
+page{
+  height:100%;
+}
+
+.containerThree-box{
+  overflow: hidden;
+  width:  100%;
+  height:  100%;  
+  background-size:  cover; 
+  background-repeat:  no-repeat;
+  position:relative; 
+}
+/*音乐图标*/
+.containerThree-playMusic{
+  width:60rpx;
+  height:60rpx;
+  position:absolute;
+  z-index:99;
+  right:36rpx;
+  top:30rpx;
+  animation:rotateMusic 2s linear infinite;
+}
+@keyframes rotateMusic{
+  0%{
+    transform:rotate(0deg);
+  }
+  50%{
+    transform:rotate(180deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+/* 箭头图标 */
+.containerThree-arrow{
+  width:100rpx;
+  height:80rpx;
+  position:absolute;
+  bottom:5rpx;
+  left:320rpx;
+  opacity:0.5;
+  animation:arrowImg 2s linear infinite;
+}
+@keyframes arrowImg{
+  0%{
+    opacity:0;
+  }
+  5%{
+    opacity:0.5;
+    transform:translateY(-10rpx);
+  }
+  50%{
+    opacity:1;
+    transform:translateY(-60rpx);
+  }
+  100%{
+    transform:translateY(-80rpx);
+  }
+}
+/*第一页头部*/
+.pageThreeBox{
+  width:100%;
+  height:100%;
+}
+.pageThreeTopBox{
+  width:100%;
+  height:600rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+
+
+/* 第七页 */
+.pagethreeBottomBoxSeven-textImg{
+  margin-top:40rpx;
+}
+.threeBottomBox-senven{
+  width:100%;
+  height:580rpx;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  justify-content:center;
+}
+/* 更多页 */
+.threeLastBlankBox{
+  width:100%;
+  height:910rpx;
+}
+
+.threeLastBtnBox{
+  width:100%;  
+  text-align:center;
+}
+ .threeMoreBtnImg{
+  width:320rpx;
+  height:100rpx;
+  margin:0 auto;
+  line-height:100rpx;
+} 
+
+
+
+
+
+
+
+/*第一页图片样式*/
+.pageThreeTopBoxOne-img{
+  width:680rpx;
+  height:590rpx;  
+  position:absolute;
+  top:-590rpx;
+  animation:textLate 1.5s linear forwards; 
+}
+@keyframes textLate{
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform:translateY(630rpx);
+  }
+}
+
+.pagethreeBottomBoxOne-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  animation:oneText 1.5s linear forwards;
+}
+@keyframes oneText{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+
+.threeBottomBox{
+  width:100%;
+  height:616rpx;
+  display: flex;
+  /* flex-direction: column; 680 590 
+  align-items: center; */
+  justify-content:center;
+}
+/*第二页图片样式*/
+.pageThreeTopBoxTwo-img{
+  width:340rpx;
+  height:295rpx;  
+  margin-top:50rpx;
+  animation:twoTop 1.5s linear forwards;
+}
+@keyframes twoTop{
+  100%{
+    transform:scale(2);
+  }
+}
+.pagethreeBottomBoxTwo-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  position:absolute;
+  bottom:-500rpx;
+  animation:twoText 1.5s linear forwards;
+}
+@keyframes twoText{
+
+  100%{
+    transform:translateY(-540rpx);
+  }
+}
+
+/*第三页图片样式*/
+.pageThreeTopBoxThree-img{
+  width:680rpx;
+  height:590rpx;  
+  position:absolute;
+  top:-590rpx;
+  animation:textLateThree 1.5s linear forwards; 
+}
+@keyframes textLateThree{
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform:translateY(630rpx);
+  }
+}
+
+.pagethreeBottomBoxThree-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  animation:oneTextThree 1.5s linear forwards;
+}
+@keyframes oneTextThree{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/*第四页图片样式*/
+.pageThreeTopBoxFour-img{
+  width:340rpx;
+  height:295rpx;  
+  margin-top:50rpx;
+  animation:twoTopFour 1.5s linear forwards;
+}
+@keyframes twoTopFour{
+  100%{
+    transform:scale(2);
+  }
+}
+.pagethreeBottomBoxFour-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  position:absolute;
+  bottom:-500rpx;
+  animation:twoTextFour 1.5s linear forwards;
+}
+@keyframes twoTextFour{
+
+  100%{
+    transform:translateY(-540rpx);
+  }
+}
+
+/*第五页图片样式*/
+.pageThreeTopBoxFive-img{
+  width:680rpx;
+  height:590rpx;  
+  position:absolute;
+  top:-590rpx;
+  animation:textLateFive 1.5s linear forwards; 
+}
+@keyframes textLateFive{
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform:translateY(630rpx);
+  }
+}
+
+.pagethreeBottomBoxFive-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  animation:oneTextFive 1.5s linear forwards;
+}
+@keyframes oneTextFive{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/*第六页图片样式*/
+.pageThreeTopBoxSix-img{
+  width:340rpx;
+  height:295rpx;  
+  margin-top:50rpx;
+  animation:twoTopSix 1.5s linear forwards;
+}
+@keyframes twoTopSix{
+  100%{
+    transform:scale(2);
+  }
+}
+.pagethreeBottomBoxSix-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  position:absolute;
+  bottom:-500rpx;
+  animation:twoTextSix 1.5s linear forwards;
+}
+@keyframes twoTextSix{
+
+  100%{
+    transform:translateY(-540rpx);
+  }
+}
+
+/*第七页图片样式*/
+.pageThreeTopBoxSeven-img{
+  width:680rpx;
+  height:590rpx;  
+  position:absolute;
+  top:-590rpx;
+  animation:textLateSeven 1.5s linear forwards; 
+}
+@keyframes textLateSeven{
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform:translateY(630rpx);
+  }
+}
+
+.pagethreeBottomBoxSeven-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  animation:oneTextSeven 1.5s linear forwards;
+}
+@keyframes oneTextSeven{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+
+/*第八页图片样式*/
+.pageThreeTopBoxEight-img{
+  width:340rpx;
+  height:295rpx;  
+  margin-top:50rpx;
+  animation:twoTopEight 1.5s linear forwards;
+}
+@keyframes twoTopEight{
+  100%{
+    transform:scale(2);
+  }
+}
+.pagethreeBottomBoxEight-textImg{
+  margin-top:120rpx;
+  width:600rpx;
+  position:absolute;
+  bottom:-500rpx;
+  animation:twoTextEight 1.5s linear forwards;
+}
+@keyframes twoTextEight{
+
+  100%{
+    transform:translateY(-560rpx);
+  }
+}

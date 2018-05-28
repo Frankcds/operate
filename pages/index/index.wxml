@@ -1,0 +1,90 @@
+
+<view class="container-box" bindtouchmove="myToucheMove" bindtouchend="leave" style="background-image:{{bgUrl}};">
+  <image src="{{musicImg}}" class="container-playMusic" bindtap="transformImg"></image>
+  <!-- <image src="img/playMusic.png" class="container-playMusic"></image> -->
+  <!-- 第一页 -->
+   <block class="oneBox" wx-if="{{oneBoxBl}}">
+      <view class="timeHeart-oneTopBox" wx-if="{{oneBoxOne}}">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/oneTop.png" class="timeHeart-oneTopBox-img" mode="widthFix"></image>
+      </view>
+       <view class="timeHeart-oneBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/frame.png" class="timeHeart-oneBottomBox-frameImg" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/oneTextImg.png" class="timeHeart-oneBottomBox-TextImg" mode="widthFix"></image>
+      </view>
+ </block> 
+  <!-- 第二页 -->
+  <block class="oneBox" wx-if="{{twoBoxBl}}">
+      <view class="timeHeart-oneTopBox" wx-if="{{oneBoxOne}}">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/twoTop.png" class="timeHeart-oneTopBox-img" mode="widthFix"></image>
+      </view>
+       <view class="timeHeart-oneBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/frame.png" class="timeHeart-oneBottomBox-frameImg" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/twoTextImg.png" class="timeHeart-oneBottomBox-TextImg" mode="widthFix"></image>
+      </view>
+ </block>
+
+  <!-- 第三页 -->
+  <block class="oneBox" wx-if="{{threeBoxBl}}">
+      <view class="timeHeart-oneTopBox" wx-if="{{oneBoxOne}}">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/threeTop.png" class="timeHeart-oneTopBox-img" mode="widthFix"></image>
+      </view>
+       <view class="timeHeart-oneBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/frame.png" class="timeHeart-oneBottomBox-frameImg" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/threeTextImg.png" class="timeHeart-oneBottomBoxT-TextImg" mode="widthFix"></image>
+      </view>
+ </block>
+
+ <!-- 第四页 -->
+ <block class="oneBox" wx-if="{{fourBoxBl}}">
+      <view class="timeHeart-oneTopBox" wx-if="{{oneBoxOne}}">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/fourTop.png" class="timeHeart-oneTopBox-img" mode="widthFix"></image>
+      </view>
+       <view class="timeHeart-oneBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/frame.png" class="timeHeart-oneBottomBox-frameImg" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/fourTextImg.png" class="timeHeart-oneBottomBoxFour-TextImg" mode="widthFix"></image>
+      </view>
+ </block>
+
+ <!-- 第五页 -->
+ <block class="oneBox" wx-if="{{fiveBoxBl}}">
+      <view class="timeHeart-oneTopBox" wx-if="{{oneBoxOne}}">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/fiveTop.png" class="timeHeart-oneTopBox-img" mode="widthFix"></image>
+      </view>
+       <view class="timeHeart-oneBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/frame.png" class="timeHeart-oneBottomBox-frameImg" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/fiveTextImg.png" class="timeHeart-oneBottomBoxFive-TextImg" mode="widthFix"></image>
+      </view>
+ </block>
+
+ <!-- 第六页 -->
+ <block class="oneBox" wx-if="{{sixBoxBl}}">
+      <view class="timeHeart-oneTopBox" wx-if="{{oneBoxOne}}">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/sixTop.png" class="timeHeart-oneTopBox-img" mode="widthFix"></image>
+      </view>
+       <view class="timeHeart-oneBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/frame.png" class="timeHeart-oneBottomBox-frameImg" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/sixTextImg.png" class="timeHeart-oneBottomBoxSix-TextImg" mode="widthFix"></image>
+      </view>
+ </block>
+
+ <!-- 第七页 -->
+ <block class="oneBox" wx-if="{{sevenBoxBl}}">
+      <view class="timeHeart-oneTopBox" wx-if="{{oneBoxOne}}">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/sevenTop.png" class="timeHeart-oneTopBox-img" mode="widthFix"></image>
+      </view>
+       <view class="timeHeart-oneBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/frame.png" class="timeHeart-oneBottomBox-frameImg" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/sevenTextImg.png" class="timeHeart-oneBottomBoxFive-TextImg" mode="widthFix"></image>
+      </view>
+ </block>
+
+ <!-- 更多页 -->
+ <block class="oneBox" wx-if="{{lastBoxBl}}">
+    <view class="lastBlankBox"></view>
+    <view class="lastBtnBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/moreBtn.png" class="moreBtnImg" bindtap="moreRoute"></image>
+    </view>
+ </block>
+
+ <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/arrowImg.png" class="container-arrow"></image>
+</view>

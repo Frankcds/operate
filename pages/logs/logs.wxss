@@ -1,0 +1,124 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+/* 内容的容器 */
+.containerHome-Box{
+  width:100%;
+  height:100%;
+  padding-bottom:106rpx;
+}
+/* 音乐美文秀内容 */
+.containerHome-contentOneBox{
+  width:100%;
+  height:290rpx;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+/* 第一行 */
+.containerHome-contentOneLeftBox{
+  width:345rpx;
+  height:250rpx;
+  border:1px solid #c4c4c4;
+  overflow:hidden;
+  position:relative;
+
+}
+.containerHome-oneLeftImg{
+  width:100%;
+  height:200rpx;
+}
+
+/* 第一行渐变条 */
+.containerHome-GradientBox{
+  width:128rpx;
+  height:28rpx;
+  background:black;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:99;
+  background:linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,0.7), rgba(255,0,0,0));
+}
+.containerHome-eyeImg{
+  width:30rpx;
+  height:15rpx;
+  position:absolute;
+  top:6rpx;
+  left:6rpx;
+}
+
+.containerHome-titleText{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size:30rpx;
+  position:absolute; 
+  bottom:10rpx;
+  left:5rpx;
+  color:#646464;  
+}
+
+/* 底部固定栏 */
+.containerHome-bottomBox{
+  width:100%;
+  height:106rpx;
+  position:fixed;
+  bottom:0;
+  z-index:999;
+  background:#fff;
+}
+
+/* 底部左侧icon */
+.containerHome-bottomLeftBox{
+  width:50%;
+  background:#fff;
+  height:100%;
+  text-align:center;
+  padding-top:16rpx;
+  display:inline-block;
+}
+.containerHome-bottomLeftImg{
+  width:50rpx;
+  height:50rpx;
+}
+.containerHome-bottomRedHotText{
+  width:100%;
+  font-size:22rpx;
+  /* color:#ff4e6e; */
+  display:block;
+  margin-top:-4rpx;
+}
+
+/* 底部左侧icon部分 */
+.containerHome-bottomRightBox{
+  width:50%;
+  background:#fff;
+  height:100%;
+  text-align:center;
+  padding-top:16rpx;
+  display:inline-block;
+}
+.containerHome-bottomRightImg{
+  width:50rpx;
+  height:50rpx;
+}
+.containerHome-bottomRrayMoreText{
+  width:100%;
+  font-size:22rpx;
+  /* color:#686868; */
+  display:block;
+  margin-top:-4rpx;
+}
+text{
+  width:345rpx;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}

@@ -1,0 +1,249 @@
+page{
+  height:100%;
+}
+
+/* 箭头图标 */
+.containerFour-arrow{
+  width:100rpx;
+  height:80rpx;
+  position:absolute;
+  bottom:5rpx;
+  left:320rpx;
+  opacity:0.5;
+  animation:arrowImg 2s linear infinite;
+}
+@keyframes arrowImg{
+  0%{
+    opacity:0;
+  }
+  5%{
+    opacity:0.5;
+    transform:translateY(-10rpx);
+  }
+  50%{
+    opacity:1;
+    transform:translateY(-60rpx);
+  }
+  100%{
+    transform:translateY(-80rpx);
+  }
+}
+/*音乐图标*/
+.containerFour-playMusic{
+  width:60rpx;
+  height:60rpx;
+  position:absolute;
+  z-index:99;
+  right:36rpx;
+  top:30rpx;
+  animation:rotateMusic 2s linear infinite;
+}
+@keyframes rotateMusic{
+  0%{
+    transform:rotate(0deg);
+  }
+  50%{
+    transform:rotate(180deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+
+/* 顶部部分 */
+.containerFour-box{
+  overflow: hidden;
+  width:  100%;
+  height:  100%;  
+  background-size:  cover; 
+  background-repeat:  no-repeat;
+  position:relative; 
+}
+
+/*第一页头部*/
+.pageFourBox{
+  width:100%;
+  height:100%;
+}
+.pageFourTopBox{
+  width:100%;
+  height:700rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.pageFourTopBox-img{
+  width:100%;
+  height:700rpx;  
+}
+.fourBottomBox{
+  width:100%;
+  height:616rpx;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  justify-content:center;
+}
+
+/* 更多页 */
+.threeLastBlankBox{
+  width:100%;
+  height:910rpx;
+}
+
+.threeLastBtnBox{
+  width:100%;  
+  text-align:center;
+}
+ .threeMoreBtnImg{
+  width:320rpx;
+  height:100rpx;
+  margin:0 auto;
+  line-height:100rpx;
+} 
+
+
+
+
+
+/*第一页*/
+.pageFourBottomBoxOne-textImg{
+  position:absolute;
+  bottom:100rpx;
+  width:600rpx;
+  animation:oneText 1.5s linear forwards;
+}
+@keyframes oneText{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/*第二页*/
+.pageFourBottomBoxTwo-textImg{
+  position:absolute;
+  bottom:-440rpx;
+  width:600rpx;
+  animation:twoText 1.5s linear forwards;
+}
+@keyframes twoText{
+
+  100%{
+    transform:translateY(-520rpx);
+  }
+}
+
+/*第三页*/
+.pageFourBottomBoxThree-textImg{
+  position:absolute;
+  bottom:100rpx;
+  width:700rpx;
+  animation:oneText 1.5s linear forwards;
+}
+
+/*第四页*/
+.pageFourBottomBoxFour-textImg{
+  position:absolute;
+  bottom:-400rpx;
+  width:640rpx;
+  animation:fourText 1.5s linear forwards;
+}
+@keyframes fourText{
+
+  100%{
+    transform:translateY(-500rpx);
+  }
+}
+
+/*第五页*/
+.pageFourBottomBoxFive-textImg{
+  position:absolute;
+  bottom:60rpx;
+  width:540rpx;
+  animation:fiveText 1.5s linear forwards;
+}
+@keyframes fiveText{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/*第六页*/
+.pageFourBottomBoxSix-textImg{
+  position:absolute;
+  bottom:-440rpx;
+  width:460rpx;
+  animation:sixText 1.5s linear forwards;
+}
+@keyframes sixText{
+
+  100%{
+    transform:translateY(-500rpx);
+  }
+}
+
+/*第七页*/
+.pageFourBottomBoxSeven-textImg{
+  position:absolute;
+  bottom:80rpx;
+  width:700rpx;
+  animation:sevenText 1.5s linear forwards;
+}
+@keyframes sevenText{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/*第八页*/
+.pageFourBottomBoxEight-textImg{
+  position:absolute;
+  bottom:-440rpx;
+  width:700rpx;
+  animation:eightText 1.5s linear forwards;
+}
+@keyframes eightText{
+  100%{
+    transform:translateY(-560rpx);
+  }
+}
+
+/*第九页*/
+.pageFourBottomBoxNight-textImg{
+  position:absolute;
+  bottom:80rpx;
+  width:580rpx;
+  animation:nightText 1.5s linear forwards;
+}
+@keyframes nightText{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/*第十页*/
+.pageFourBottomBoxTen-textImg{
+  position:absolute;
+  bottom:-440rpx;
+  width:550rpx;
+  animation:tenText 1.5s linear forwards;
+}
+@keyframes tenText{
+  100%{
+    transform:translateY(-520rpx);
+  }
+}

@@ -1,0 +1,110 @@
+<view class="containerTwo-box" style="background-image:{{twoBgUrl}};" bindtouchmove="myToucheMove" bindtouchend="leave">
+  <!-- 音乐图片部分 -->
+  <image src="{{musicImg}}" class="container-playMusic" bindtap="transformImg"></image>
+
+  <!-- 第一页 -->
+  <block wx:if="{{pageTone}}" class="pageTwoBox">
+     <view class="pageTwo-oneBox"> 
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/oneLamp.jpg" class="containerTwo-oneTopImg"></image>
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-oneBottomImg"></image>
+      
+    <!-- </view> -->
+    
+     <!-- <view class="pageTwo-oneTwoBox"> -->
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/understandImg.png" class="containerTwo-oneBottomTextImgO" mode="widthFix"></image>
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/theGoodImg.png" class="containerTwo-oneBottomTextImgT" mode="widthFix"></image>
+     </view> 
+  </block>
+ 
+
+  <!-- 第二页 -->
+  <block  wx:if="{{pageTTwo}}">
+    <view class="pageTwo-oneBox">
+    <!-- <view class="pageTwo-oneTopBox"> -->
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/sceneryTree.jpg" class="containerTwo-twoTopImg"></image>
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-twoBottomImg"></image>
+    <!-- </view> -->
+     <!-- <view class="pageTwo-oneTwoBox"> -->
+       
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/deadImg.png" class="containerTwo-twoBottomTextImg" mode="widthFix"></image>
+    <!-- </view> -->
+    </view>
+  </block>
+  <!-- 第三页 -->
+  <block  wx:if="{{pageTThree}}">
+    <view class="pageTwo-oneBox" wx:if="{{pageTThree}}">
+    <!-- <view class="pageTwo-oneTopBox"> -->
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/beachImg.jpg" class="containerTwo-threeTopImg"></image>
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-threeBottomImg"></image>      
+    <!-- </view> -->
+     <!-- <view class="pageTwo-oneTwoBox"> -->
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/woundImg.png" class="containerTwo-threeBottomTextImg" mode="widthFix"></image>
+    <!-- </view> -->
+    </view>
+  </block>
+  <!-- 第四页 -->
+  <block  wx:if="{{pageTFour}}">
+   <view class="pageTwo-oneBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/yellowLightImg.jpg" class="containerTwo-fourTopImg"></image>
+     <!-- <block class="pageTwo-fourTwoBox"> -->
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-fourBottomImg"></image>
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/loveTextImg.png" class="containerTwo-fourBottomTextImg" mode="widthFix"></image>
+    <!-- </block> -->
+   </view>
+  </block>
+
+  <!-- 第五页 -->
+   <block wx:if="{{pageTFive}}">
+    <view class="pageTwo-oneBox" >
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/nightLightImg.jpg" class="containerTwo-fiveTopImg"></image>
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-fiveBottomImg"></image>
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/tearTextImg.png" class="containerTwo-fiveBottomTextImg" mode="widthFix"></image>
+    </view>
+  </block>
+
+  <!-- 第六页 -->
+   <block wx:if="{{pageTSix}}">
+    <view class="pageTwo-oneBox">
+    <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/settingSunImg.jpg" class="containerTwo-sixTopImg"></image>
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-sixBottomImg"></image>
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/confessionTextImg.png" class="containerTwo-sixBottomTextImg" mode="widthFix"></image>
+    </view>
+  </block>
+
+  <!-- 第七页 -->
+   <block wx:if="{{pageTSeven}}">
+     <view class="pageTwo-oneBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/churchImg.jpg" class="containerTwo-sevenTopImg"></image>
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-sevenBottomImg"></image>
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/everyTextImg.png" class="containerTwo-sevenBottomTextImg" mode="widthFix"></image>
+    </view>
+  </block>
+
+  <!-- 第八页 -->
+   <block wx:if="{{pageTEight}}">
+    <view class="pageTwo-oneBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/luminescenceImg.jpg" class="containerTwo-eightTopImg"></image>
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/wallImg.png" class="containerTwo-eightBottomImg"></image>
+   
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/maybeTextImg.png" class="containerTwo-eightBottomTextImg" mode="widthFix"></image>
+    </view>
+  </block>
+
+  <!-- 更多页 -->
+  <block class="pageTwo-oneBox" wx-if="{{twoMoreBox}}">
+      <view class="threeLastBlankBox"></view>
+      <view class="threeLastBtnBox">
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/moreBtn.png" class="threeMoreBtnImg" bindtap="moreRoute"></image>
+      </view>
+    </block>
+
+  <!-- 滑动图片 -->
+  <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageTwo/arrowImg.png" class="container-arrow"></image>
+</view> 

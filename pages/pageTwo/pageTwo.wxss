@@ -1,0 +1,549 @@
+page{
+  height:100%;
+}
+.containerTwo-box{
+  width:100%;
+  height:100%;
+  background-size:  cover; 
+  background-repeat:  no-repeat;
+   position:relative;    
+}
+/*音乐图标*/
+.container-playMusic{
+  width:60rpx;
+  height:60rpx;
+  position:absolute;
+  z-index:99;
+  right:36rpx;
+  top:30rpx;
+  animation:rotateMusic 2s linear infinite;
+}
+@keyframes rotateMusic{
+  0%{
+    transform:rotate(0deg);
+  }
+  50%{
+    transform:rotate(180deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+/*顶部图片*/
+.containerTwo-oneTopImg{
+  width:100%;
+  height:700rpx;
+
+}
+
+/* 首页盒子 */
+
+.pageTwoBox{
+  width:100%;
+  height:100%;
+}
+.pageTwo-oneBox{
+  width:100%;
+  height:100%;
+   display: flex; 
+
+  position:relative;
+  overflow:hidden;
+}
+
+.containerTwo-oneBottomImg{
+  width:100%;
+  height:620rpx;
+  position:absolute;    
+  bottom:70rpx;
+  z-index:99;
+}
+/* 底部文字图片部分 */
+.containerTwo-oneBottomTextImgO{
+  width:360rpx;
+  position:absolute;
+  top:-100rpx; 
+  left:180rpx;
+  z-index:100;
+  animation:textLate 1.5s linear forwards;
+}
+@keyframes textLate{
+  0%{
+    transform:translateY(0rpx);
+  }
+  70%{
+    transform:translateY(940rpx);
+  }
+  85%{
+    transform:translateY(870rpx);
+  } 
+  100%{
+    transform:translateY(900rpx);
+  }
+}
+
+/* 底部第二张图 */
+.containerTwo-oneBottomTextImgT{
+  width:360rpx;
+  position:absolute;
+  top:1200rpx;
+  left:180rpx;
+  z-index:100;
+  animation:textImgTLate 1.5s linear forwards;
+}
+ @keyframes textImgTLate{
+  0%{
+    transform:translateY(0rpx);
+  }
+
+  70%{
+    transform:translateY(-260rpx);
+  }
+  85%{
+    transform:translateY(-210rpx);
+  }
+  100%{
+    transform:translateY(-240rpx);
+  }
+} 
+
+/* 箭头图标 */
+.container-arrow{
+  width:100rpx;
+  height:80rpx;
+  position:absolute; 
+  top:1100rpx;
+  left:320rpx;
+  opacity:1;
+  z-index:999;
+  animation:arrowImg 2s linear infinite;
+}
+@keyframes arrowImg{
+  0%{
+    opacity:0;
+  }
+  5%{
+    opacity:0.5;
+    transform:translateY(-10rpx);
+  }
+  50%{
+    opacity:1;
+    transform:translateY(-60rpx);
+  }
+  100%{
+    transform:translateY(-80rpx);
+  }
+}
+
+/* 第二页顶部图片 */
+.containerTwo-twoTopImg{
+  width:100%;
+  height:700rpx;
+  animation:twoTopImg 1.5s linear forwards;
+}
+@keyframes twoTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/* 第二页底部图片 */
+.containerTwo-twoBottomImg{
+  width:50%;
+  height:300rpx;
+  position:absolute;
+  left:200rpx;
+  top:680rpx;
+  z-index:99;
+  animation:twoBottomImg 1.2s linear forwards;
+}
+@keyframes twoBottomImg{
+  100%{
+    transform:scale(2);
+  }
+}
+.containerTwo-twoBottomTextImg{
+  width:600rpx;
+  position:absolute;
+  top:760rpx; 
+  left:76rpx;
+  z-index:100;
+  animation:bottomTextImg 1.2s linear forwards;
+}
+@keyframes bottomTextImg{
+  0%{
+    transform-origin:left bottom;
+    transform:rotate(-60deg);
+  }
+   60%{
+    transform-origin:left bottom;
+    transform:rotate(-30deg);
+  }  
+  80%{
+    transform-origin:left bottom;
+    transform:rotate(-10deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+}
+
+/* 第二页顶部图片 */
+.containerTwo-twoTopImg{
+  width:100%;
+  height:700rpx;
+  position:absolute;
+  animation:twoTopImg 1.5s linear forwards;
+}
+@keyframes twoTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/* 第三页 */
+
+.containerTwo-threeTopImg{
+  width:100%;
+  height:700rpx;
+  /* position:absolute; */
+  animation:threeTopImg 1.5s linear forwards;
+}
+@keyframes threeTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+.pageTwo-threeTwoBox{
+  width:100%;
+  text-align:center;
+}
+.containerTwo-threeBottomImg{
+  width:100%;
+  height:600rpx;
+  position:absolute;
+  top:1000rpx;
+  z-index:99;
+  animation:threeBottomImg 1.2s linear forwards;
+}
+ @keyframes threeBottomImg{
+  100%{
+    transform:translateY(-500rpx);
+  }
+} 
+.containerTwo-threeBottomTextImg{
+  width:300rpx;
+  position:absolute;
+  bottom:160rpx; 
+  left:230rpx;
+  z-index:100;
+  animation:bottomTextImgT 1.2s linear forwards;
+}
+@keyframes bottomTextImgT{
+  100%{
+    transform:scale(2);
+  }
+}
+
+/* 第四页 */
+
+.containerTwo-fourTopImg{
+  width:100%;
+  height:700rpx;
+  animation:fourTopImg 1.5s linear forwards;
+}
+@keyframes fourTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+
+.containerTwo-fourBottomImg{
+  width:100%;
+  height:600rpx;
+  position:absolute;
+  top:1000rpx;
+  z-index:99;
+  animation:fourBottomImg 1.2s linear forwards;
+}
+@keyframes fourBottomImg{
+  100%{
+    transform:translateY(-500rpx);
+  }
+}
+.containerTwo-fourBottomTextImg{
+  width:300rpx;
+  position:absolute;
+  bottom:180rpx; 
+  left:230rpx;
+  z-index:100;
+  animation:bottomTextImgF 1.2s linear forwards;
+}
+@keyframes bottomTextImgF{
+  100%{
+    transform:scale(2);
+  }
+}
+
+
+/* 第五页 */
+.containerTwo-fiveBottomImg{
+  width:100%;
+  height:600rpx;
+  position:absolute;
+  top:1000rpx;
+  z-index:99;
+  animation:fiveBottomImg 1.2s linear forwards;
+}
+@keyframes fiveBottomImg{
+  100%{
+    transform:translateY(-500rpx);
+  }
+}
+.containerTwo-fiveBottomTextImg{
+  width:600rpx;
+  position:absolute;
+  bottom:90rpx; 
+  left:76rpx;
+  z-index:100;
+  animation:bottomTextImgFive 1.2s linear forwards;
+}
+@keyframes bottomTextImgFive{
+  0%{
+    transform-origin:left bottom;
+    transform:rotate(-60deg);
+  }
+   60%{
+    transform-origin:left bottom;
+    transform:rotate(-30deg);
+  }  
+  80%{
+    transform-origin:left bottom;
+    transform:rotate(-10deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+}
+
+.containerTwo-fiveTopImg{
+  width:100%;
+  height:700rpx;
+  animation:fiveTopImg 1.5s linear forwards;
+}
+@keyframes fiveTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+
+/* 第六页底部图片 */
+
+.containerTwo-sixBottomImg{
+  width:50%;
+  height:300rpx;
+  position:absolute;
+  left:200rpx;
+  top:680rpx;
+  z-index:99;
+  animation:sixBottomImg 1.2s linear forwards;
+}
+@keyframes sixBottomImg{
+  100%{
+    transform:scale(2);
+  }
+}
+.containerTwo-sixBottomTextImg{
+  width:640rpx;
+  position:absolute;
+  bottom:130rpx; 
+  left:66rpx;
+  z-index:100;
+  animation:bottomTextImgSix 1.2s linear forwards;
+}
+ @keyframes bottomTextImgSix{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+} 
+
+.containerTwo-sixTopImg{
+  width:100%;
+  height:700rpx;
+  position:absolute;
+  animation:sixTopImg 1.5s linear forwards;
+}
+@keyframes sixTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+/* 第七页 */
+
+.containerTwo-sevenTopImg{
+  width:100%;
+  height:700rpx;
+  animation:sevenTopImg 1.5s linear forwards;
+}
+@keyframes sevenTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+.containerTwo-sevenBottomImg{
+  width:100%;
+  height:600rpx;
+  position:absolute;
+  top:1000rpx;
+  z-index:99;
+  animation:sevenBottomImg 1.2s linear forwards;
+}
+@keyframes sevenBottomImg{
+  100%{
+    transform:translateY(-500rpx);
+  }
+}
+.containerTwo-sevenBottomTextImg{
+  width:300rpx;
+  position:absolute;
+  bottom:150rpx; 
+  left:230rpx;
+  z-index:100;
+  animation:bottomTextImgSeven 1.2s linear forwards;
+}
+@keyframes bottomTextImgSeven{
+  100%{
+    transform:scale(2);
+  }
+}
+
+
+/* 第八页 */
+.containerTwo-eightBottomImg{
+  width:100%;
+  height:600rpx;
+  position:absolute;
+  top:1000rpx;
+  z-index:99;
+  animation:eightBottomImg 1.2s linear forwards;
+}
+@keyframes eightBottomImg{
+  100%{
+    transform:translateY(-500rpx);
+  }
+}
+.containerTwo-eightBottomTextImg{
+  width:600rpx;
+  position:absolute;
+  bottom:80rpx; 
+  left:76rpx;
+  z-index:100;
+  animation:bottomTextImgEight 1.2s linear forwards;
+}
+@keyframes bottomTextImgEight{
+  0%{
+    transform-origin:left bottom;
+    transform:rotate(-60deg);
+  }
+   60%{
+    transform-origin:left bottom;
+    transform:rotate(-30deg);
+  }  
+  80%{
+    transform-origin:left bottom;
+    transform:rotate(-10deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+}
+
+.containerTwo-eightTopImg{
+  width:100%;
+  height:700rpx;
+  animation:fiveTopImg 1.5s linear forwards;
+}
+@keyframes eightTopImg{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+
+
+/* 更多页 */
+.threeLastBlankBox{
+  width:100%;
+  height:910rpx;
+}
+
+.threeLastBtnBox{
+  width:100%;  
+  text-align:center;
+}
+ .threeMoreBtnImg{
+  width:320rpx;
+  height:100rpx;
+  margin:0 auto;
+  line-height:100rpx;
+  animation:twoBtnShaking 2s linear forwards;
+} 
+@keyframes twoBtnShaking{
+ 20%{
+  transform:scale(1.2);
+ }
+ 30%{
+   transform:rotate(-6deg) scale(1.2);
+ }
+ 40%{
+   transform:rotate(6deg) scale(1.2);
+ }
+  50%{
+   transform:rotate(-6deg) scale(1.2);
+ }
+ 60%{
+   transform:rotate(6deg) scale(1.2);
+ }
+ 70%{
+   transform:rotate(-6deg) scale(1.2);
+ }
+ 80%{
+   transform:rotate(6deg) scale(1.2);
+ }
+ 100%{
+   transform:scale(0);
+   transform:rotate(0deg);
+  }
+}

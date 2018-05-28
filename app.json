@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/pageSix/pageSix",
+    "pages/pageFive/pageFive",
+    "pages/pageFour/pageFour",
+    "pages/pageThree/pageThree",
+    "pages/index/index",
+    "pages/pageTwo/pageTwo"    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#373a41",
+    "navigationBarTitleText": "日久见人心,谁会在乎你",
+    "navigationBarTextStyle":"#fff"
+  }
+}

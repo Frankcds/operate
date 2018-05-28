@@ -1,0 +1,81 @@
+<view class="containerSix-box" style="background-image:{{sixBgUrl}}" bindtouchmove="myToucheMove" bindtouchend="leave">
+  <image src="{{musicImg}}" class="containerFive-playMusic" bindtap="transformImg"></image>
+  <!-- 第一页 -->
+  <block class="pageSixBox" wx-if="{{arr[0]}}">
+    <view class="pageSixTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixOneTop.png" class="pageSixTopBoxOne-img" mode="widthFix"></image>
+    </view>
+    <view class="pageSixBottomBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixOneText.png" mode="widthFix" class="pageSixBottomTextOne-img"></image>
+    </view>
+  </block>
+
+  <!-- 第二页 -->
+  <block class="pageSixBox" wx-if="{{arr[1]}}">
+    <view class="pageSixTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixTwoTop.png" class="pageSixTopBoxTwo-img" mode="widthFix"></image>
+    </view>
+    <view class="pageSixBottomBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixTwoText.png" mode="widthFix" class="pageSixBottomTextTwo-img"></image>
+    </view>
+  </block>
+
+  <!-- 第三页 -->
+  <block class="pageSixBox" wx-if="{{arr[2]}}">
+    <view class="pageSixTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixThreeTop.png" class="pageSixTopBoxThree-img" mode="widthFix"></image>
+    </view>
+    <view class="pageSixBottomBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixThreeText.png" mode="widthFix" class="pageSixBottomTextThree-img"></image>
+    </view>
+  </block>
+
+  <!-- 第四页 -->
+  <block class="pageSixBox" wx-if="{{arr[3]}}">
+    <view class="pageSixTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixFourTop.png" class="pageSixTopBoxFour-img" mode="widthFix"></image>
+    </view>
+    <view class="pageSixBottomBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixFourText.png" mode="widthFix" class="pageSixBottomTextFour-img"></image>
+    </view>
+  </block>
+
+  <!-- 第五页 -->
+  <block class="pageSixBox" wx-if="{{arr[4]}}">
+    <view class="pageSixTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixFiveTop.png" class="pageSixTopBoxFive-img" mode="widthFix"></image>
+    </view>
+    <view class="pageSixBottomBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixFiveText.png" mode="widthFix" class="pageSixBottomTextFive-img"></image>
+    </view>
+  </block>
+
+  <!-- 第六页 -->
+  <block class="pageSixBox" wx-if="{{arr[5]}}">
+    <view class="pageSixTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixSixTop.png" class="pageSixTopBoxSix-img" mode="widthFix"></image>
+    </view>
+    <view class="pageSixBottomBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixSixText.png" mode="widthFix" class="pageSixBottomTextFiveSix-img"></image>
+    </view>
+  </block>
+
+  <!-- 第七页 -->
+  <block class="pageSixBox" wx-if="{{arr[6]}}">
+    <view class="pageSixTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixSevenTop.png" class="pageSixTopBoxSeven-img" mode="widthFix"></image>
+    </view>
+    <view class="pageSixBottomBox">
+      <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageSix/pageSixSevenText.png" mode="widthFix" class="pageSixBottomTextSeven-img"></image>
+    </view>
+  </block>
+
+  <!-- 更多页 -->
+  <block class="pageTwo-oneBox" wx-if="{{arr[7]}}">
+      <view class="threeLastBlankBox"></view>
+      <view class="threeLastBtnBox">
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/moreBtn.png" class="threeMoreBtnImg" bindtap="moreRoute"></image>
+      </view>
+    </block>
+  <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/arrowImg.png" class="containerFive-arrow"></image>
+</view>

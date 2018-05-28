@@ -1,0 +1,75 @@
+<view class="containerFive-box" style="background-image:{{fiveBgUrl}}" bindtouchmove="myToucheMove" bindtouchend="leave">
+  <image src="{{musicImg}}" class="containerFive-playMusic" bindtap="transformImg"></image>
+  <!-- 第一页 -->
+  <block class="pageFiveBox" wx-if="{{arr[0]}}">
+    <view class="pageFiveTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveOneText.png" class="pageFiveTopTextOne-img" mode="widthFix"></image>
+      </view>
+  </block>
+
+  <!-- 第二页 -->
+  <block class="pageFiveBox" wx-if="{{arr[1]}}">
+    <view class="pageFiveTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveTwoText.png" class="pageFiveTopTextTwo-img" mode="widthFix"></image>
+      </view>
+  </block>
+    
+  <!-- 第三页 -->
+  <block class="pageFiveBox" wx-if="{{arr[2]}}">
+    <view class="pageFiveTopBoxTop">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveThreeText.png" class="pageFiveTopTextThree-img" mode="widthFix"></image>
+      </view>
+  </block>
+
+  <!-- 第四页 -->
+  <block class="pageFiveBox" wx-if="{{arr[3]}}">
+    <view class="pageFiveTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveFourText.png" class="pageFiveTopTextFour-img" mode="widthFix"></image>
+      </view>
+  </block>
+
+  <!-- 第五页 -->
+  <block class="pageFiveBox" wx-if="{{arr[4]}}">
+    <view class="pageFiveTopBoxTop">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveFiveText.png" class="pageFiveTopTextFive-img" mode="widthFix"></image>
+      </view>
+  </block>
+
+  <!-- 第六页 -->
+  <block class="pageFiveBox" wx-if="{{arr[5]}}">
+    <view class="pageFiveTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveSixText.png" class="pageFiveTopTextSix-img" mode="widthFix"></image>
+      </view>
+  </block>
+
+  <!-- 第七页 -->
+  <block class="pageFiveBox" wx-if="{{arr[6]}}">
+    <view class="pageFiveTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveSevenText.png" class="pageFiveTopTextSeven-img" mode="widthFix"></image>
+      </view>
+  </block>
+
+  <!-- 第八页 -->
+  <block class="pageFiveBox" wx-if="{{arr[7]}}">
+    <view class="pageFiveTopBoxTop">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveBox.png" class="pageFiveTopBox-img" mode="widthFix"></image>
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFive/pageFiveEightText.png" class="pageFiveTopTextEight-img" mode="widthFix"></image>
+      </view>
+  </block>
+
+  <!-- 更多页 -->
+  <block class="pageTwo-oneBox" wx-if="{{arr[8]}}">
+      <view class="threeLastBlankBox"></view>
+      <view class="threeLastBtnBox">
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/moreBtn.png" class="threeMoreBtnImg" bindtap="moreRoute"></image>
+      </view>
+    </block>
+  <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/arrowImg.png" class="containerFive-arrow"></image>
+</view>

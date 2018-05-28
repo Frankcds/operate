@@ -1,0 +1,79 @@
+<!--logs.wxml-->
+<view class="containerHome-Box" wx:if="{{containerHomeBl}}">
+  <!-- 顶部第一行 -->
+  <view class="containerHome-contentOneBox">
+    <view class="containerHome-contentOneLeftBox" bindtap="oneRoute">
+      <image class="containerHome-oneLeftImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/pageOneCover.png"></image>
+      <view class="containerHome-GradientBox">
+        <image class="containerHome-eyeImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/eyeImg.png"></image>
+      </view>
+      <text class="containerHome-titleText">日久见人心，谁会在乎你</text>      
+    </view>
+
+    <view class="containerHome-contentOneLeftBox" bindtap="twoRoute">
+      <image class="containerHome-oneLeftImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/pageTwoCover.png"></image>
+      <view class="containerHome-GradientBox">
+        <image class="containerHome-eyeImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/eyeImg.png"></image>
+      </view>
+      <text class="containerHome-titleText">你若懂我，该有多好</text>    
+    </view>
+  </view>
+
+  <!-- 顶部第二行 -->
+  <view class="containerHome-contentOneBox">
+    <view class="containerHome-contentOneLeftBox" bindtap="threeRoute">
+      <image class="containerHome-oneLeftImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/pageThreeCover.png"></image>
+      <view class="containerHome-GradientBox">
+        <image class="containerHome-eyeImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/eyeImg.png"></image>
+      </view>
+      <text class="containerHome-titleText">别忘了，心疼心疼你自己! 句句穿透心肺</text>      
+    </view>
+
+    <view class="containerHome-contentOneLeftBox" bindtap="fourRoute">
+      <image class="containerHome-oneLeftImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/pageFourCover.png"></image>
+      <view class="containerHome-GradientBox">
+        <image class="containerHome-eyeImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/eyeImg.png"></image>
+      </view>
+      <text class="containerHome-titleText">人,走着走着便懂了</text>    
+    </view>
+  </view>
+
+  <!-- 顶部第三行 -->
+  <view class="containerHome-contentOneBox">
+    <view class="containerHome-contentOneLeftBox" bindtap="fiveRoute">
+      <image class="containerHome-oneLeftImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/pageFiveCover.png"></image>
+      <view class="containerHome-GradientBox">
+        <image class="containerHome-eyeImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/eyeImg.png"></image>
+      </view>
+      <text class="containerHome-titleText">做人的底线</text>      
+    </view>
+
+    <view class="containerHome-contentOneLeftBox" bindtap="sixRoute">
+      <image class="containerHome-oneLeftImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/pageSixCover.png"></image>
+      <view class="containerHome-GradientBox">
+        <image class="containerHome-eyeImg" src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/logsImg/eyeImg.png"></image>
+      </view>
+      <text class="containerHome-titleText">别太认真，别太假；别太痴心，别太傻</text>    
+    </view>
+  </view>
+
+
+
+
+  
+  
+  <!-- <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block> -->
+</view>
+<!-- 底部固定栏 -->
+  <view class="containerHome-bottomBox"> 
+     <view class="containerHome-bottomLeftBox" bindtap="clickHot">
+      <image class="containerHome-bottomLeftImg" src="{{bottomLeftImg}}"></image>
+      <text class="containerHome-bottomRedHotText" style="color:{{hotText}}">热门</text>      
+    </view> 
+    <view class="containerHome-bottomRightBox" bindtap="clickMore">
+      <image class="containerHome-bottomRightImg" src="{{bottomRightImg}}"></image>
+      <text class="containerHome-bottomRrayMoreText" style="color:{{moreText}}">更多</text>      
+    </view>
+  </view>

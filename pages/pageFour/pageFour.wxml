@@ -1,0 +1,101 @@
+<view class="containerFour-box" style="background-image:{{fourBgUrl}}" bindtouchmove="myToucheMove" bindtouchend="leave">
+  <image src="{{musicImg}}" class="containerFour-playMusic" bindtap="transformImg"></image>
+    <!-- 第一页 -->
+   <block class="pageFourBox" wx-if="{{pageFourOneBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourOneTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourOneTextImg.png" class="pageFourBottomBoxOne-textImg" mode="widthFix"></image>
+      </view>
+    </block>
+    <!-- 第二页 -->
+   <block class="pageFourBox" wx-if="{{pageFourTwoBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourTwoTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourTwoTextImg.png" class="pageFourBottomBoxTwo-textImg" mode="widthFix"></image>
+      </view>
+    </block>  
+    <!-- 第三页 -->
+   <block class="pageFourBox" wx-if="{{pageFourThreeBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourThreeTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourThreeTextImg.png" class="pageFourBottomBoxThree-textImg" mode="widthFix"></image>
+      </view>
+    </block>  
+     <!-- 第四页 -->
+   <block class="pageFourBox" wx-if="{{pageFourFourBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourFourTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourFourTextImg.png" class="pageFourBottomBoxFour-textImg" mode="widthFix"></image>
+      </view>
+    </block> 
+     <!-- 第五页 -->
+   <block class="pageFourBox" wx-if="{{pageFourFiveBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourFiveTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourFiveTextImg.png" class="pageFourBottomBoxFive-textImg" mode="widthFix"></image>
+      </view>
+    </block>   
+    <!-- 第六页 -->
+   <block class="pageFourBox" wx-if="{{pageFourSixBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourSixTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourSixTextImg.png" class="pageFourBottomBoxSix-textImg" mode="widthFix"></image>
+      </view>
+    </block>  
+     <!-- 第七页 -->
+   <block class="pageFourBox" wx-if="{{pageFourSevenBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourSevenTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourSevenTextImg.png" class="pageFourBottomBoxSeven-textImg" mode="widthFix"></image>
+      </view>
+    </block>
+     <!-- 第八页 -->
+   <block class="pageFourBox" wx-if="{{pageFourEightBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourEightTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourEightTextImg.png" class="pageFourBottomBoxEight-textImg" mode="widthFix"></image>
+      </view>
+    </block>
+    <!-- 第九页 -->
+   <block class="pageFourBox" wx-if="{{pageFourNightBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourNightTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourNightTextImg.png" class="pageFourBottomBoxNight-textImg" mode="widthFix"></image>
+      </view>
+    </block>
+    <!-- 第十页 -->
+   <block class="pageFourBox" wx-if="{{pageFourTenBoxBl}}">
+      <view class="pageFourTopBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourTenTop.png" class="pageFourTopBox-img"></image>
+      </view>
+      <view class="fourBottomBox">
+        <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/pageFour/pageFourTenTextImg.png" class="pageFourBottomBoxTen-textImg" mode="widthFix"></image>
+      </view>
+    </block>
+    <!-- 更多页  -->
+    <block class="pageTwo-oneBox" wx-if="{{FourMoreBox}}">
+      <view class="threeLastBlankBox"></view>
+      <view class="threeLastBtnBox">
+       <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/moreBtn.png" class="threeMoreBtnImg" bindtap="moreRoute"></image>
+      </view>
+    </block>
+  <image src="http://api.ool.vc/chargerbaby-admin-server-api/weixin/arrowImg.png" class="containerFour-arrow"></image>
+</view>
